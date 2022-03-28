@@ -1,0 +1,50 @@
+/* 
+  Localizable.strings
+  QuestShare
+
+  Created by Karol Wojtas on 26/05/2021.
+  
+*/
+'welcome-header' = 'Welcome to QuestShare';
+'form-basic-data' = 'Basic Data';
+'form-name' = 'Name:';
+'form-desc' = 'Description:';
+'save' = 'Save';
+'edit' = 'Edit';
+'cancel' = 'Cancel';
+'collection-view-header' = 'Collection';
+'locations' = 'Locations';
+'no-data' = 'None';
+'add-location' = 'Add location';
+'edit-location' = 'Edit location';
+'name-required-prompt' = 'Name is required';
+'map' = 'Map';
+'data' = 'Data';
+'list' = 'List';
+'change' = 'Change';
+'locationNotSelected' = 'Select location from map or list to view details';
+'edit-node' = 'Edit node';
+'text-node-form-name' = 'Enter text to display';
+'log-in' = 'Log in';
+'register' = 'Register';
+'confirm-password' = 'Confirm password';
+'password' = 'Password';
+'email' = 'Email';
+'user-info-login-info' = 'You are logged in as:';
+'sign-out' = 'Sign out';
+'distance-prompt' = 'You are too far away, move within %.2f m of the location';
+'workspace-save-prompt' = 'Currently saved node will be overwritten. Are you sure?';
+'reset-location-prompt' = 'You will loose nodes in workspace. Are you sure?';
+'color' = 'Color';
+'ar-scene' = 'AR Scene';
+'ar-scene-continue-prompt' = 'AR Scene edition has been started.';
+'ar-scene-new-prompt' = 'Start new AR Scene edition.';
+'ar-scene-view' = 'view';
+'ar-scene-continue' = 'continue edition';
+'ar-scene-new' = 'new edition';
+'settings' = 'Settings';
+'ignore-distance' = 'Ignore distance';
+'root-status' = 'Root status';
+'disable-root-transform' = 'Disable root transform';
+'disable-root-rotation' = 'Disable root rotation';
+'show-root' = 'show-root';

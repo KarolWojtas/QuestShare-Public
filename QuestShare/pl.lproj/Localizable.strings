@@ -1,0 +1,51 @@
+/* 
+  Localizable.strings
+  QuestShare
+
+  Created by Karol Wojtas on 26/05/2021.
+  
+*/
+'welcome-header' = 'QuestShare wita';
+'form-basic-data' = 'Dane podstawowe';
+'form-name' = 'Nazwa:';
+'form-desc' = 'Opis:';
+'save' = 'Zapisz';
+'edit' = 'Edytuj';
+'cancel' = 'Anuluj';
+'collection-view-header' = 'Kolekcja';
+'locations' = 'Lokalizacje';
+'no-data' = 'Brak';
+'add-location' = 'Dodaj lokalizację';
+'edit-location' = 'Edytuj lokalizację';
+'name-required-prompt' = 'Nazwa jest wymagana';
+'map' = 'Mapa';
+'data' = 'Dane';
+'list' = 'Lista';
+'change' = 'Zmień';
+'locationNotSelected' = 'Wybierz lokalizację z mapy lub listy, by wyświetlić szczegóły';
+'edit-node' = 'Edytuj obiekt';
+'text-node-form-name' = 'Wpisz tekst';
+'log-in' = 'Zaloguj';
+'register' = 'Zarejestruj';
+'confirm-password' = 'Potwierdź hasło';
+'password' = 'Hasło';
+'email' = 'Email';
+'user-info-login-info' = 'Zalogowano jako:';
+'sign-out' = 'Wyloguj się';
+'distance-prompt' = 'Jesteś za daleko, zbliż się na co najmniej %.2f m w kieruku lokalizacji';
+'workspace-save-prompt' = 'Obecnie zapisane obiekty zostaną nadpisane. Jesteś pewny/a?';
+'reset-location-prompt' = 'Utracisz obiekty w obszarze roboczym. Jesteś pewny/a?';
+'color' = 'Kolor';
+'ar-scene' = 'Scena AR';
+'ar-scene-continue-prompt' = 'Edycja sceny AR została rozpoczęta.';
+'ar-scene-new-prompt' = 'Zacznij nową edycję sceny AR.';
+'ar-scene-view' = 'podgląd';
+'ar-scene-continue' = 'kontunuuj edycję';
+'ar-scene-new' = 'nowa edycja';
+'settings' = 'Ustawienia';
+'ignore-distance' = 'Ignoruj dystans';
+'root-status' = 'Status węzła root';
+'disable-root-transform' = 'Wyłącz pozycjonowanie root';
+'disable-root-rotation' = 'Wyłącz obrót root';
+'show-root' = 'Pokazuj położenie root';
+

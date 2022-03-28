@@ -1,0 +1,1185 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45024C98265D737A00610082 /* LocationListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45024C97265D737A00610082 /* LocationListItem.swift */; };
+		45024C9A265D78F100610082 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45024C99265D78F100610082 /* LocationManager.swift */; };
+		45024C9C265D7FE900610082 /* LocationAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45024C9B265D7FE900610082 /* LocationAdd.swift */; };
+		4508B31526D5764200E037D9 /* ARScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4508B31426D5764200E037D9 /* ARScene.swift */; };
+		4508B31726D5770700E037D9 /* ARSceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4508B31626D5770700E037D9 /* ARSceneCoordinator.swift */; };
+		45090570264165AD00A87B63 /* ExpandableHandleArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509056F264165AD00A87B63 /* ExpandableHandleArrow.swift */; };
+		450905722641862A00A87B63 /* NodeGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450905712641862A00A87B63 /* NodeGallery.swift */; };
+		450905742641871400A87B63 /* QSNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450905732641871400A87B63 /* QSNode.swift */; };
+		450905762641880D00A87B63 /* NodeGalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450905752641880D00A87B63 /* NodeGalleryItem.swift */; };
+		4509057826418EEC00A87B63 /* RepeatingShake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509057726418EEC00A87B63 /* RepeatingShake.swift */; };
+		4510D5B02659905900A51C0D /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510D5AF2659905900A51C0D /* CollectionView.swift */; };
+		4510D5B2265991C900A51C0D /* QSBaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510D5B1265991C900A51C0D /* QSBaseObject.swift */; };
+		4510D5B42659961100A51C0D /* CollectionMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510D5B32659961100A51C0D /* CollectionMap.swift */; };
+		4510D5B726599E1E00A51C0D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510D5B626599E1E00A51C0D /* Home.swift */; };
+		45151DBC265FF81C0015A73D /* BasicObjectDataForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45151DBB265FF81C0015A73D /* BasicObjectDataForm.swift */; };
+		45151DBE265FFA0F0015A73D /* RoundedRectangleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45151DBD265FFA0F0015A73D /* RoundedRectangleContainer.swift */; };
+		4515C96E26469886000701AD /* Objects.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4515C96D26469886000701AD /* Objects.scnassets */; };
+		452199732712208300141DE1 /* QSAppUserDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452199722712208300141DE1 /* QSAppUserDto.swift */; };
+		45293BD8265E2A4D0010E814 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45293BDA265E2A4D0010E814 /* Localizable.strings */; };
+		4529E2AA2690EFDA00C0DB29 /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4529E2A92690EFDA00C0DB29 /* CollectionViewModel.swift */; };
+		452F828926FFA4640014EBD1 /* LocationIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F828826FFA4640014EBD1 /* LocationIndicator.swift */; };
+		452F828B26FFA7030014EBD1 /* QSEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F828A26FFA7030014EBD1 /* QSEnvironment.swift */; };
+		4537ECC226C3248F00DA70FB /* NodeAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4537ECC126C3248F00DA70FB /* NodeAdd.swift */; };
+		453947F526E14AC300695EA8 /* BasicNodeInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453947F426E14AC300695EA8 /* BasicNodeInteraction.swift */; };
+		453A588A26FA465000D04F68 /* AuthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A588926FA465000D04F68 /* AuthPage.swift */; };
+		453A588C26FA466C00D04F68 /* AuthFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A588B26FA466C00D04F68 /* AuthFormViewModel.swift */; };
+		453A589926FA5D6900D04F68 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 453A589826FA5D6900D04F68 /* GoogleService-Info.plist */; };
+		453A8E522716227E00BF6963 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A8E512716227E00BF6963 /* Extensions.swift */; };
+		453AF2972725C0010064BE9A /* QSRootNodeTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453AF2962725C0010064BE9A /* QSRootNodeTransform.swift */; };
+		453AF2992725C1220064BE9A /* RootNodeStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453AF2982725C1220064BE9A /* RootNodeStatus.swift */; };
+		453BE7FF2699E224000569F1 /* TextHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453BE7FE2699E224000569F1 /* TextHighlight.swift */; };
+		453DB2DF265972CB00197302 /* QSCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453DB2DE265972CB00197302 /* QSCollection.swift */; };
+		453DB2E1265972DA00197302 /* QSLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453DB2E0265972DA00197302 /* QSLocation.swift */; };
+		453DB2E326597D3000197302 /* QSCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453DB2E226597D3000197302 /* QSCoordinate.swift */; };
+		453EF90B272B1E9400DCCFDD /* VectorCalculationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453EF90A272B1E9400DCCFDD /* VectorCalculationTest.swift */; };
+		4541A65E265B840A00D47C19 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4541A65D265B840A00D47C19 /* HomeViewModel.swift */; };
+		455438162708CB3A0079E1E8 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455438152708CB3A0079E1E8 /* FirebaseManager.swift */; };
+		455438182708CB670079E1E8 /* ServerDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455438172708CB670079E1E8 /* ServerDatabaseManager.swift */; };
+		4554381B2708CC580079E1E8 /* CollectionSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4554381A2708CC580079E1E8 /* CollectionSearch.swift */; };
+		4554381D2708CC6E0079E1E8 /* CollectionSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4554381C2708CC6E0079E1E8 /* CollectionSearchViewModel.swift */; };
+		4554381F2708D0B90079E1E8 /* CollectionSearchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4554381E2708D0B90079E1E8 /* CollectionSearchItem.swift */; };
+		455A351226A01D4C00B45C3E /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A351126A01D4C00B45C3E /* RealmManager.swift */; };
+		455D7D0B26A756EE00D02A1A /* ButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455D7D0A26A756EE00D02A1A /* ButtonGroup.swift */; };
+		4565A3C726C5A67E002CC74B /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565A3C626C5A67E002CC74B /* AssetManager.swift */; };
+		4565A3C926C5A6F2002CC74B /* QSNodeAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565A3C826C5A6F2002CC74B /* QSNodeAsset.swift */; };
+		4569900E26938B4E004AC91E /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 4569900D26938B4E004AC91E /* Realm */; };
+		4569901026938B4E004AC91E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4569900F26938B4E004AC91E /* RealmSwift */; };
+		4569901226938F75004AC91E /* LocationAddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569901126938F75004AC91E /* LocationAddViewModel.swift */; };
+		457465C3271DF42B00F7CA74 /* ReadonlyHide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457465C2271DF42B00F7CA74 /* ReadonlyHide.swift */; };
+		458A926527136C7600103167 /* UIKitAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458A926427136C7600103167 /* UIKitAppear.swift */; };
+		45931DC72697853500B41A90 /* BasicDataTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45931DC62697853500B41A90 /* BasicDataTitle.swift */; };
+		4594317027124AA800F6A7DB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4594316F27124AA800F6A7DB /* FirebaseAuth */; };
+		4594317227124AA800F6A7DB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4594317127124AA800F6A7DB /* FirebaseFirestore */; };
+		4594317427124AA800F6A7DB /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 4594317327124AA800F6A7DB /* FirebaseFirestoreSwift-Beta */; };
+		4594317627124AA800F6A7DB /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 4594317527124AA800F6A7DB /* FirebaseFunctions */; };
+		4594317827124AA800F6A7DB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4594317727124AA800F6A7DB /* FirebaseStorage */; };
+		4594317A27124AA800F6A7DB /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 4594317927124AA800F6A7DB /* FirebaseStorageSwift-Beta */; };
+		4594317C2712BC3F00F6A7DB /* QSUserDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4594317B2712BC3F00F6A7DB /* QSUserDto.swift */; };
+		45952550272F26E2008FC04E /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4595254F272F26E2008FC04E /* SettingsViewModel.swift */; };
+		459742FE26A5E78900639F2E /* QSLocationWorkspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459742FD26A5E78900639F2E /* QSLocationWorkspace.swift */; };
+		4598B79A2714D02E00BDE353 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4598B7992714D02E00BDE353 /* AuthManager.swift */; };
+		45A0490326FD03870000A536 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0490226FD03870000A536 /* UserViewModel.swift */; };
+		45A0490526FD058A0000A536 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0490426FD058A0000A536 /* UserInfo.swift */; };
+		45A0490726FD09000000A536 /* QSUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0490626FD09000000A536 /* QSUser.swift */; };
+		45A8D895268267A500876CE5 /* BasicDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A8D894268267A500876CE5 /* BasicDataViewModel.swift */; };
+		45AF673D26CD924D002F5BC9 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AF673C26CD924D002F5BC9 /* CircleButton.swift */; };
+		45AF673F26CD967B002F5BC9 /* ModalTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AF673E26CD967B002F5BC9 /* ModalTitle.swift */; };
+		45B8C3EB26DD6BD000E998AD /* ARSceneConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B8C3EA26DD6BD000E998AD /* ARSceneConstants.swift */; };
+		45BA8F3627273DE200CDFF50 /* NodeVectorCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BA8F3527273DE200CDFF50 /* NodeVectorCalculator.swift */; };
+		45BBCDE32694D91400F82CA1 /* FormInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BBCDE22694D91400F82CA1 /* FormInputField.swift */; };
+		45CB18132711A96D00C629FE /* QSNodeDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB18122711A96D00C629FE /* QSNodeDto.swift */; };
+		45CB18172711ABD900C629FE /* QSLocationDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB18162711ABD900C629FE /* QSLocationDto.swift */; };
+		45CB18192711AEB700C629FE /* QSCollectionDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB18182711AEB700C629FE /* QSCollectionDto.swift */; };
+		45CB181B2711D23400C629FE /* QSCoordinateDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB181A2711D23400C629FE /* QSCoordinateDto.swift */; };
+		45CB181D2711DA4B00C629FE /* QSVectorDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB181C2711DA4B00C629FE /* QSVectorDto.swift */; };
+		45D0980A26DEB66000E3071F /* QSVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D0980926DEB66000E3071F /* QSVector.swift */; };
+		45D0980C26DEB68B00E3071F /* QSNodeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D0980B26DEB68B00E3071F /* QSNodeEvent.swift */; };
+		45D0980E26DEB8B900E3071F /* ARExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D0980D26DEB8B900E3071F /* ARExtensions.swift */; };
+		45D759AD269992C500B13E87 /* LocationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D759AC269992C500B13E87 /* LocationList.swift */; };
+		45D759AF2699A2CC00B13E87 /* SelectedLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D759AE2699A2CC00B13E87 /* SelectedLocation.swift */; };
+		45DCE568269F9378008A768C /* ViewModelLifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DCE567269F9378008A768C /* ViewModelLifecycle.swift */; };
+		45E0AC3826CC402D009F3C35 /* NodeEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0AC3726CC402D009F3C35 /* NodeEdit.swift */; };
+		45E0AC3A26CC4209009F3C35 /* NodeAssetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0AC3926CC4209009F3C35 /* NodeAssetImage.swift */; };
+		45E32FBD265AEA8300040DCA /* CollectionListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E32FBC265AEA8300040DCA /* CollectionListItem.swift */; };
+		45EFCB5926BB07820022E024 /* LocationSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFCB5826BB07820022E024 /* LocationSceneViewModel.swift */; };
+		45FC40002742832500E206C0 /* NetworkStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FC3FFF2742832500E206C0 /* NetworkStatusViewModel.swift */; };
+		45FE9A43263BF88E006E12CA /* QuestShareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE9A42263BF88E006E12CA /* QuestShareApp.swift */; };
+		45FE9A45263BF88E006E12CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE9A44263BF88E006E12CA /* ContentView.swift */; };
+		45FE9A47263BF88F006E12CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45FE9A46263BF88F006E12CA /* Assets.xcassets */; };
+		45FE9A4A263BF88F006E12CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45FE9A49263BF88F006E12CA /* Preview Assets.xcassets */; };
+		45FE9A55263BF88F006E12CA /* QuestShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE9A54263BF88F006E12CA /* QuestShareTests.swift */; };
+		45FE9A60263BF88F006E12CA /* QuestShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE9A5F263BF88F006E12CA /* QuestShareUITests.swift */; };
+		45FE9A70263BF8ED006E12CA /* LocationScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE9A6F263BF8ED006E12CA /* LocationScene.swift */; };
+		45FE9A76263BFF44006E12CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE9A75263BFF44006E12CA /* Constants.swift */; };
+		45FE9A78263C12D7006E12CA /* ExpandableWithHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FE9A77263C12D7006E12CA /* ExpandableWithHandle.swift */; };
+		45FFD7AB265EB0B8001A090E /* LocationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FFD7AA265EB0B8001A090E /* LocationMap.swift */; };
+		45FFD7AE265EB382001A090E /* LocationMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FFD7AD265EB382001A090E /* LocationMapAnnotation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45FE9A51263BF88F006E12CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FE9A37263BF88E006E12CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FE9A3E263BF88E006E12CA;
+			remoteInfo = QuestShare;
+		};
+		45FE9A5C263BF88F006E12CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FE9A37263BF88E006E12CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FE9A3E263BF88E006E12CA;
+			remoteInfo = QuestShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45024C97265D737A00610082 /* LocationListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListItem.swift; sourceTree = "<group>"; };
+		45024C99265D78F100610082 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		45024C9B265D7FE900610082 /* LocationAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAdd.swift; sourceTree = "<group>"; };
+		4508B31426D5764200E037D9 /* ARScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScene.swift; sourceTree = "<group>"; };
+		4508B31626D5770700E037D9 /* ARSceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneCoordinator.swift; sourceTree = "<group>"; };
+		4509056F264165AD00A87B63 /* ExpandableHandleArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHandleArrow.swift; sourceTree = "<group>"; };
+		450905712641862A00A87B63 /* NodeGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeGallery.swift; sourceTree = "<group>"; };
+		450905732641871400A87B63 /* QSNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSNode.swift; sourceTree = "<group>"; };
+		450905752641880D00A87B63 /* NodeGalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeGalleryItem.swift; sourceTree = "<group>"; };
+		4509057726418EEC00A87B63 /* RepeatingShake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingShake.swift; sourceTree = "<group>"; };
+		4510D5AF2659905900A51C0D /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		4510D5B1265991C900A51C0D /* QSBaseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSBaseObject.swift; sourceTree = "<group>"; };
+		4510D5B32659961100A51C0D /* CollectionMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionMap.swift; sourceTree = "<group>"; };
+		4510D5B626599E1E00A51C0D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		45151DBB265FF81C0015A73D /* BasicObjectDataForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicObjectDataForm.swift; sourceTree = "<group>"; };
+		45151DBD265FFA0F0015A73D /* RoundedRectangleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleContainer.swift; sourceTree = "<group>"; };
+		4515C96D26469886000701AD /* Objects.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Objects.scnassets; sourceTree = "<group>"; };
+		452199722712208300141DE1 /* QSAppUserDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSAppUserDto.swift; sourceTree = "<group>"; };
+		45293BD9265E2A4D0010E814 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		45293BDB265E2ACB0010E814 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4529E2A92690EFDA00C0DB29 /* CollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
+		452F828826FFA4640014EBD1 /* LocationIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationIndicator.swift; sourceTree = "<group>"; };
+		452F828A26FFA7030014EBD1 /* QSEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSEnvironment.swift; sourceTree = "<group>"; };
+		4537ECC126C3248F00DA70FB /* NodeAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeAdd.swift; sourceTree = "<group>"; };
+		453947F426E14AC300695EA8 /* BasicNodeInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicNodeInteraction.swift; sourceTree = "<group>"; };
+		453A588926FA465000D04F68 /* AuthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPage.swift; sourceTree = "<group>"; };
+		453A588B26FA466C00D04F68 /* AuthFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFormViewModel.swift; sourceTree = "<group>"; };
+		453A589826FA5D6900D04F68 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		453A8E512716227E00BF6963 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		453AF2962725C0010064BE9A /* QSRootNodeTransform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSRootNodeTransform.swift; sourceTree = "<group>"; };
+		453AF2982725C1220064BE9A /* RootNodeStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNodeStatus.swift; sourceTree = "<group>"; };
+		453BE7FE2699E224000569F1 /* TextHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHighlight.swift; sourceTree = "<group>"; };
+		453DB2DE265972CB00197302 /* QSCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSCollection.swift; sourceTree = "<group>"; };
+		453DB2E0265972DA00197302 /* QSLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSLocation.swift; sourceTree = "<group>"; };
+		453DB2E226597D3000197302 /* QSCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSCoordinate.swift; sourceTree = "<group>"; };
+		453EF90A272B1E9400DCCFDD /* VectorCalculationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorCalculationTest.swift; sourceTree = "<group>"; };
+		4541A65D265B840A00D47C19 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		455438152708CB3A0079E1E8 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		455438172708CB670079E1E8 /* ServerDatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerDatabaseManager.swift; sourceTree = "<group>"; };
+		4554381A2708CC580079E1E8 /* CollectionSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionSearch.swift; sourceTree = "<group>"; };
+		4554381C2708CC6E0079E1E8 /* CollectionSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionSearchViewModel.swift; sourceTree = "<group>"; };
+		4554381E2708D0B90079E1E8 /* CollectionSearchItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionSearchItem.swift; sourceTree = "<group>"; };
+		455A351126A01D4C00B45C3E /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		455D7D0A26A756EE00D02A1A /* ButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGroup.swift; sourceTree = "<group>"; };
+		4565A3C626C5A67E002CC74B /* AssetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetManager.swift; sourceTree = "<group>"; };
+		4565A3C826C5A6F2002CC74B /* QSNodeAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSNodeAsset.swift; sourceTree = "<group>"; };
+		4569901126938F75004AC91E /* LocationAddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAddViewModel.swift; sourceTree = "<group>"; };
+		457465C2271DF42B00F7CA74 /* ReadonlyHide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadonlyHide.swift; sourceTree = "<group>"; };
+		458A926427136C7600103167 /* UIKitAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitAppear.swift; sourceTree = "<group>"; };
+		45931DC62697853500B41A90 /* BasicDataTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDataTitle.swift; sourceTree = "<group>"; };
+		4594317B2712BC3F00F6A7DB /* QSUserDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSUserDto.swift; sourceTree = "<group>"; };
+		4595254F272F26E2008FC04E /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		459742FD26A5E78900639F2E /* QSLocationWorkspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSLocationWorkspace.swift; sourceTree = "<group>"; };
+		4598B7992714D02E00BDE353 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		45A0490226FD03870000A536 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		45A0490426FD058A0000A536 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		45A0490626FD09000000A536 /* QSUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSUser.swift; sourceTree = "<group>"; };
+		45A8D894268267A500876CE5 /* BasicDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDataViewModel.swift; sourceTree = "<group>"; };
+		45AF673C26CD924D002F5BC9 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		45AF673E26CD967B002F5BC9 /* ModalTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTitle.swift; sourceTree = "<group>"; };
+		45B8C3EA26DD6BD000E998AD /* ARSceneConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneConstants.swift; sourceTree = "<group>"; };
+		45BA8F3527273DE200CDFF50 /* NodeVectorCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeVectorCalculator.swift; sourceTree = "<group>"; };
+		45BBCDE22694D91400F82CA1 /* FormInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormInputField.swift; sourceTree = "<group>"; };
+		45CB18122711A96D00C629FE /* QSNodeDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSNodeDto.swift; sourceTree = "<group>"; };
+		45CB18162711ABD900C629FE /* QSLocationDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSLocationDto.swift; sourceTree = "<group>"; };
+		45CB18182711AEB700C629FE /* QSCollectionDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSCollectionDto.swift; sourceTree = "<group>"; };
+		45CB181A2711D23400C629FE /* QSCoordinateDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSCoordinateDto.swift; sourceTree = "<group>"; };
+		45CB181C2711DA4B00C629FE /* QSVectorDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSVectorDto.swift; sourceTree = "<group>"; };
+		45D0980926DEB66000E3071F /* QSVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSVector.swift; sourceTree = "<group>"; };
+		45D0980B26DEB68B00E3071F /* QSNodeEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSNodeEvent.swift; sourceTree = "<group>"; };
+		45D0980D26DEB8B900E3071F /* ARExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARExtensions.swift; sourceTree = "<group>"; };
+		45D759AC269992C500B13E87 /* LocationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationList.swift; sourceTree = "<group>"; };
+		45D759AE2699A2CC00B13E87 /* SelectedLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedLocation.swift; sourceTree = "<group>"; };
+		45DCE567269F9378008A768C /* ViewModelLifecycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelLifecycle.swift; sourceTree = "<group>"; };
+		45E0AC3726CC402D009F3C35 /* NodeEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeEdit.swift; sourceTree = "<group>"; };
+		45E0AC3926CC4209009F3C35 /* NodeAssetImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeAssetImage.swift; sourceTree = "<group>"; };
+		45E32FBC265AEA8300040DCA /* CollectionListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionListItem.swift; sourceTree = "<group>"; };
+		45EFCB5826BB07820022E024 /* LocationSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSceneViewModel.swift; sourceTree = "<group>"; };
+		45FC3FFF2742832500E206C0 /* NetworkStatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatusViewModel.swift; sourceTree = "<group>"; };
+		45FE9A3F263BF88E006E12CA /* QuestShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FE9A42263BF88E006E12CA /* QuestShareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestShareApp.swift; sourceTree = "<group>"; };
+		45FE9A44263BF88E006E12CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45FE9A46263BF88F006E12CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45FE9A49263BF88F006E12CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45FE9A4B263BF88F006E12CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FE9A50263BF88F006E12CA /* QuestShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FE9A54263BF88F006E12CA /* QuestShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestShareTests.swift; sourceTree = "<group>"; };
+		45FE9A56263BF88F006E12CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FE9A5B263BF88F006E12CA /* QuestShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FE9A5F263BF88F006E12CA /* QuestShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestShareUITests.swift; sourceTree = "<group>"; };
+		45FE9A61263BF88F006E12CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FE9A6F263BF8ED006E12CA /* LocationScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationScene.swift; sourceTree = "<group>"; };
+		45FE9A75263BFF44006E12CA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		45FE9A77263C12D7006E12CA /* ExpandableWithHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableWithHandle.swift; sourceTree = "<group>"; };
+		45FFD7AA265EB0B8001A090E /* LocationMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMap.swift; sourceTree = "<group>"; };
+		45FFD7AD265EB382001A090E /* LocationMapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45FE9A3C263BF88E006E12CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4569901026938B4E004AC91E /* RealmSwift in Frameworks */,
+				4594317227124AA800F6A7DB /* FirebaseFirestore in Frameworks */,
+				4594317427124AA800F6A7DB /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				4594317627124AA800F6A7DB /* FirebaseFunctions in Frameworks */,
+				4594317827124AA800F6A7DB /* FirebaseStorage in Frameworks */,
+				4594317A27124AA800F6A7DB /* FirebaseStorageSwift-Beta in Frameworks */,
+				4594317027124AA800F6A7DB /* FirebaseAuth in Frameworks */,
+				4569900E26938B4E004AC91E /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FE9A4D263BF88F006E12CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FE9A58263BF88F006E12CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45024C96265D735900610082 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				45FFD7AC265EB0E0001A090E /* LocationAdd */,
+				45D759AB2699928C00B13E87 /* LocationList */,
+				4529E2A92690EFDA00C0DB29 /* CollectionViewModel.swift */,
+				4510D5B32659961100A51C0D /* CollectionMap.swift */,
+				4510D5AF2659905900A51C0D /* CollectionView.swift */,
+				45931DC62697853500B41A90 /* BasicDataTitle.swift */,
+				45D759AE2699A2CC00B13E87 /* SelectedLocation.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		4508B31326D5762800E037D9 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				4508B31426D5764200E037D9 /* ARScene.swift */,
+				4508B31626D5770700E037D9 /* ARSceneCoordinator.swift */,
+				45B8C3EA26DD6BD000E998AD /* ARSceneConstants.swift */,
+				45D0980D26DEB8B900E3071F /* ARExtensions.swift */,
+				453947F426E14AC300695EA8 /* BasicNodeInteraction.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		4509056C26415DE500A87B63 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				4509056F264165AD00A87B63 /* ExpandableHandleArrow.swift */,
+				453BE7FE2699E224000569F1 /* TextHighlight.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		4510D5B52659963300A51C0D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				45FE9A77263C12D7006E12CA /* ExpandableWithHandle.swift */,
+				4509057726418EEC00A87B63 /* RepeatingShake.swift */,
+				45151DBD265FFA0F0015A73D /* RoundedRectangleContainer.swift */,
+				455D7D0A26A756EE00D02A1A /* ButtonGroup.swift */,
+				45E0AC3926CC4209009F3C35 /* NodeAssetImage.swift */,
+				45AF673C26CD924D002F5BC9 /* CircleButton.swift */,
+				45AF673E26CD967B002F5BC9 /* ModalTitle.swift */,
+				458A926427136C7600103167 /* UIKitAppear.swift */,
+				457465C2271DF42B00F7CA74 /* ReadonlyHide.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		45151DBA265FF7D50015A73D /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				45151DBB265FF81C0015A73D /* BasicObjectDataForm.swift */,
+				45BBCDE22694D91400F82CA1 /* FormInputField.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		453A588826FA461A00D04F68 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				453A588926FA465000D04F68 /* AuthPage.swift */,
+				453A588B26FA466C00D04F68 /* AuthFormViewModel.swift */,
+				45A0490426FD058A0000A536 /* UserInfo.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		453DB2DD26596D6D00197302 /* LocationScene */ = {
+			isa = PBXGroup;
+			children = (
+				4508B31326D5762800E037D9 /* AR */,
+				4565A3CA26C5B175002CC74B /* NodeAdd */,
+				45E0AC3626CC401B009F3C35 /* NodeEdit */,
+				45FE9A6F263BF8ED006E12CA /* LocationScene.swift */,
+				450905712641862A00A87B63 /* NodeGallery.swift */,
+				450905752641880D00A87B63 /* NodeGalleryItem.swift */,
+				45EFCB5826BB07820022E024 /* LocationSceneViewModel.swift */,
+				452F828826FFA4640014EBD1 /* LocationIndicator.swift */,
+				453AF2982725C1220064BE9A /* RootNodeStatus.swift */,
+				45BA8F3527273DE200CDFF50 /* NodeVectorCalculator.swift */,
+			);
+			path = LocationScene;
+			sourceTree = "<group>";
+		};
+		4541A65C265B83F600D47C19 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				45024C99265D78F100610082 /* LocationManager.swift */,
+				455A351126A01D4C00B45C3E /* RealmManager.swift */,
+				4565A3C626C5A67E002CC74B /* AssetManager.swift */,
+				455438152708CB3A0079E1E8 /* FirebaseManager.swift */,
+				455438172708CB670079E1E8 /* ServerDatabaseManager.swift */,
+				4598B7992714D02E00BDE353 /* AuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		455438192708CC3D0079E1E8 /* CollectionSearch */ = {
+			isa = PBXGroup;
+			children = (
+				4554381A2708CC580079E1E8 /* CollectionSearch.swift */,
+				4554381C2708CC6E0079E1E8 /* CollectionSearchViewModel.swift */,
+				4554381E2708D0B90079E1E8 /* CollectionSearchItem.swift */,
+			);
+			path = CollectionSearch;
+			sourceTree = "<group>";
+		};
+		4565A3CA26C5B175002CC74B /* NodeAdd */ = {
+			isa = PBXGroup;
+			children = (
+				4537ECC126C3248F00DA70FB /* NodeAdd.swift */,
+			);
+			path = NodeAdd;
+			sourceTree = "<group>";
+		};
+		45A8D8932682678E00876CE5 /* CommonViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				45A8D894268267A500876CE5 /* BasicDataViewModel.swift */,
+				45DCE567269F9378008A768C /* ViewModelLifecycle.swift */,
+				45A0490226FD03870000A536 /* UserViewModel.swift */,
+				4595254F272F26E2008FC04E /* SettingsViewModel.swift */,
+				45FC3FFF2742832500E206C0 /* NetworkStatusViewModel.swift */,
+			);
+			path = CommonViewModel;
+			sourceTree = "<group>";
+		};
+		45CB18112711A95400C629FE /* Dto */ = {
+			isa = PBXGroup;
+			children = (
+				45CB18122711A96D00C629FE /* QSNodeDto.swift */,
+				45CB18162711ABD900C629FE /* QSLocationDto.swift */,
+				45CB18182711AEB700C629FE /* QSCollectionDto.swift */,
+				45CB181A2711D23400C629FE /* QSCoordinateDto.swift */,
+				45CB181C2711DA4B00C629FE /* QSVectorDto.swift */,
+				452199722712208300141DE1 /* QSAppUserDto.swift */,
+				4594317B2712BC3F00F6A7DB /* QSUserDto.swift */,
+			);
+			path = Dto;
+			sourceTree = "<group>";
+		};
+		45D759AB2699928C00B13E87 /* LocationList */ = {
+			isa = PBXGroup;
+			children = (
+				45024C97265D737A00610082 /* LocationListItem.swift */,
+				45D759AC269992C500B13E87 /* LocationList.swift */,
+			);
+			path = LocationList;
+			sourceTree = "<group>";
+		};
+		45E0AC3626CC401B009F3C35 /* NodeEdit */ = {
+			isa = PBXGroup;
+			children = (
+				45E0AC3726CC402D009F3C35 /* NodeEdit.swift */,
+			);
+			path = NodeEdit;
+			sourceTree = "<group>";
+		};
+		45E32FBB265AEA6F00040DCA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4541A65D265B840A00D47C19 /* HomeViewModel.swift */,
+				4510D5B626599E1E00A51C0D /* Home.swift */,
+				45E32FBC265AEA8300040DCA /* CollectionListItem.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		45FE9A36263BF88E006E12CA = {
+			isa = PBXGroup;
+			children = (
+				45FE9A41263BF88E006E12CA /* QuestShare */,
+				45FE9A53263BF88F006E12CA /* QuestShareTests */,
+				45FE9A5E263BF88F006E12CA /* QuestShareUITests */,
+				45FE9A40263BF88E006E12CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45FE9A40263BF88E006E12CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45FE9A3F263BF88E006E12CA /* QuestShare.app */,
+				45FE9A50263BF88F006E12CA /* QuestShareTests.xctest */,
+				45FE9A5B263BF88F006E12CA /* QuestShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45FE9A41263BF88E006E12CA /* QuestShare */ = {
+			isa = PBXGroup;
+			children = (
+				45A8D8932682678E00876CE5 /* CommonViewModel */,
+				4541A65C265B83F600D47C19 /* Managers */,
+				4509056C26415DE500A87B63 /* Shapes */,
+				45FE9A74263BFF2A006E12CA /* Model */,
+				45FE9A6D263BF89A006E12CA /* Views */,
+				45FE9A42263BF88E006E12CA /* QuestShareApp.swift */,
+				45FE9A44263BF88E006E12CA /* ContentView.swift */,
+				45FE9A46263BF88F006E12CA /* Assets.xcassets */,
+				45FE9A4B263BF88F006E12CA /* Info.plist */,
+				453A589826FA5D6900D04F68 /* GoogleService-Info.plist */,
+				45FE9A48263BF88F006E12CA /* Preview Content */,
+				4515C96D26469886000701AD /* Objects.scnassets */,
+				45293BDA265E2A4D0010E814 /* Localizable.strings */,
+			);
+			path = QuestShare;
+			sourceTree = "<group>";
+		};
+		45FE9A48263BF88F006E12CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45FE9A49263BF88F006E12CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45FE9A53263BF88F006E12CA /* QuestShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				453EF90A272B1E9400DCCFDD /* VectorCalculationTest.swift */,
+				45FE9A54263BF88F006E12CA /* QuestShareTests.swift */,
+				45FE9A56263BF88F006E12CA /* Info.plist */,
+			);
+			path = QuestShareTests;
+			sourceTree = "<group>";
+		};
+		45FE9A5E263BF88F006E12CA /* QuestShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45FE9A5F263BF88F006E12CA /* QuestShareUITests.swift */,
+				45FE9A61263BF88F006E12CA /* Info.plist */,
+			);
+			path = QuestShareUITests;
+			sourceTree = "<group>";
+		};
+		45FE9A6D263BF89A006E12CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45FE9A71263BFB95006E12CA /* Components */,
+				45FE9A6E263BF8BC006E12CA /* Pages */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		45FE9A6E263BF8BC006E12CA /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				455438192708CC3D0079E1E8 /* CollectionSearch */,
+				453A588826FA461A00D04F68 /* User */,
+				45E32FBB265AEA6F00040DCA /* Home */,
+				45024C96265D735900610082 /* CollectionView */,
+				453DB2DD26596D6D00197302 /* LocationScene */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		45FE9A71263BFB95006E12CA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				45151DBA265FF7D50015A73D /* Form */,
+				4510D5B52659963300A51C0D /* Util */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		45FE9A74263BFF2A006E12CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45CB18112711A95400C629FE /* Dto */,
+				45FE9A75263BFF44006E12CA /* Constants.swift */,
+				450905732641871400A87B63 /* QSNode.swift */,
+				453DB2DE265972CB00197302 /* QSCollection.swift */,
+				453DB2E0265972DA00197302 /* QSLocation.swift */,
+				453DB2E226597D3000197302 /* QSCoordinate.swift */,
+				4510D5B1265991C900A51C0D /* QSBaseObject.swift */,
+				45FFD7AD265EB382001A090E /* LocationMapAnnotation.swift */,
+				459742FD26A5E78900639F2E /* QSLocationWorkspace.swift */,
+				4565A3C826C5A6F2002CC74B /* QSNodeAsset.swift */,
+				45D0980926DEB66000E3071F /* QSVector.swift */,
+				45D0980B26DEB68B00E3071F /* QSNodeEvent.swift */,
+				45A0490626FD09000000A536 /* QSUser.swift */,
+				452F828A26FFA7030014EBD1 /* QSEnvironment.swift */,
+				453A8E512716227E00BF6963 /* Extensions.swift */,
+				453AF2962725C0010064BE9A /* QSRootNodeTransform.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45FFD7AC265EB0E0001A090E /* LocationAdd */ = {
+			isa = PBXGroup;
+			children = (
+				45024C9B265D7FE900610082 /* LocationAdd.swift */,
+				45FFD7AA265EB0B8001A090E /* LocationMap.swift */,
+				4569901126938F75004AC91E /* LocationAddViewModel.swift */,
+			);
+			path = LocationAdd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45FE9A3E263BF88E006E12CA /* QuestShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FE9A64263BF88F006E12CA /* Build configuration list for PBXNativeTarget "QuestShare" */;
+			buildPhases = (
+				45FE9A3B263BF88E006E12CA /* Sources */,
+				45FE9A3C263BF88E006E12CA /* Frameworks */,
+				45FE9A3D263BF88E006E12CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuestShare;
+			packageProductDependencies = (
+				4569900D26938B4E004AC91E /* Realm */,
+				4569900F26938B4E004AC91E /* RealmSwift */,
+				4594316F27124AA800F6A7DB /* FirebaseAuth */,
+				4594317127124AA800F6A7DB /* FirebaseFirestore */,
+				4594317327124AA800F6A7DB /* FirebaseFirestoreSwift-Beta */,
+				4594317527124AA800F6A7DB /* FirebaseFunctions */,
+				4594317727124AA800F6A7DB /* FirebaseStorage */,
+				4594317927124AA800F6A7DB /* FirebaseStorageSwift-Beta */,
+			);
+			productName = QuestShare;
+			productReference = 45FE9A3F263BF88E006E12CA /* QuestShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45FE9A4F263BF88F006E12CA /* QuestShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FE9A67263BF88F006E12CA /* Build configuration list for PBXNativeTarget "QuestShareTests" */;
+			buildPhases = (
+				45FE9A4C263BF88F006E12CA /* Sources */,
+				45FE9A4D263BF88F006E12CA /* Frameworks */,
+				45FE9A4E263BF88F006E12CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45FE9A52263BF88F006E12CA /* PBXTargetDependency */,
+			);
+			name = QuestShareTests;
+			productName = QuestShareTests;
+			productReference = 45FE9A50263BF88F006E12CA /* QuestShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45FE9A5A263BF88F006E12CA /* QuestShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FE9A6A263BF88F006E12CA /* Build configuration list for PBXNativeTarget "QuestShareUITests" */;
+			buildPhases = (
+				45FE9A57263BF88F006E12CA /* Sources */,
+				45FE9A58263BF88F006E12CA /* Frameworks */,
+				45FE9A59263BF88F006E12CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45FE9A5D263BF88F006E12CA /* PBXTargetDependency */,
+			);
+			name = QuestShareUITests;
+			productName = QuestShareUITests;
+			productReference = 45FE9A5B263BF88F006E12CA /* QuestShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45FE9A37263BF88E006E12CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					45FE9A3E263BF88E006E12CA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					45FE9A4F263BF88F006E12CA = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 45FE9A3E263BF88E006E12CA;
+					};
+					45FE9A5A263BF88F006E12CA = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 45FE9A3E263BF88E006E12CA;
+					};
+				};
+			};
+			buildConfigurationList = 45FE9A3A263BF88E006E12CA /* Build configuration list for PBXProject "QuestShare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				pl,
+			);
+			mainGroup = 45FE9A36263BF88E006E12CA;
+			packageReferences = (
+				4569900C26938B4E004AC91E /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				4594316E27124AA800F6A7DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 45FE9A40263BF88E006E12CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45FE9A3E263BF88E006E12CA /* QuestShare */,
+				45FE9A4F263BF88F006E12CA /* QuestShareTests */,
+				45FE9A5A263BF88F006E12CA /* QuestShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45FE9A3D263BF88E006E12CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4515C96E26469886000701AD /* Objects.scnassets in Resources */,
+				45293BD8265E2A4D0010E814 /* Localizable.strings in Resources */,
+				453A589926FA5D6900D04F68 /* GoogleService-Info.plist in Resources */,
+				45FE9A4A263BF88F006E12CA /* Preview Assets.xcassets in Resources */,
+				45FE9A47263BF88F006E12CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FE9A4E263BF88F006E12CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FE9A59263BF88F006E12CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45FE9A3B263BF88E006E12CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CB181D2711DA4B00C629FE /* QSVectorDto.swift in Sources */,
+				453DB2E1265972DA00197302 /* QSLocation.swift in Sources */,
+				4565A3C926C5A6F2002CC74B /* QSNodeAsset.swift in Sources */,
+				45FC40002742832500E206C0 /* NetworkStatusViewModel.swift in Sources */,
+				453BE7FF2699E224000569F1 /* TextHighlight.swift in Sources */,
+				45CB181B2711D23400C629FE /* QSCoordinateDto.swift in Sources */,
+				45FE9A76263BFF44006E12CA /* Constants.swift in Sources */,
+				453947F526E14AC300695EA8 /* BasicNodeInteraction.swift in Sources */,
+				45D0980E26DEB8B900E3071F /* ARExtensions.swift in Sources */,
+				45D759AD269992C500B13E87 /* LocationList.swift in Sources */,
+				4510D5B02659905900A51C0D /* CollectionView.swift in Sources */,
+				455A351226A01D4C00B45C3E /* RealmManager.swift in Sources */,
+				4510D5B42659961100A51C0D /* CollectionMap.swift in Sources */,
+				4554381B2708CC580079E1E8 /* CollectionSearch.swift in Sources */,
+				45931DC72697853500B41A90 /* BasicDataTitle.swift in Sources */,
+				45E32FBD265AEA8300040DCA /* CollectionListItem.swift in Sources */,
+				45952550272F26E2008FC04E /* SettingsViewModel.swift in Sources */,
+				450905742641871400A87B63 /* QSNode.swift in Sources */,
+				45090570264165AD00A87B63 /* ExpandableHandleArrow.swift in Sources */,
+				4510D5B726599E1E00A51C0D /* Home.swift in Sources */,
+				4508B31526D5764200E037D9 /* ARScene.swift in Sources */,
+				452199732712208300141DE1 /* QSAppUserDto.swift in Sources */,
+				45FFD7AE265EB382001A090E /* LocationMapAnnotation.swift in Sources */,
+				45B8C3EB26DD6BD000E998AD /* ARSceneConstants.swift in Sources */,
+				459742FE26A5E78900639F2E /* QSLocationWorkspace.swift in Sources */,
+				45A0490526FD058A0000A536 /* UserInfo.swift in Sources */,
+				45E0AC3A26CC4209009F3C35 /* NodeAssetImage.swift in Sources */,
+				453AF2992725C1220064BE9A /* RootNodeStatus.swift in Sources */,
+				453AF2972725C0010064BE9A /* QSRootNodeTransform.swift in Sources */,
+				45151DBE265FFA0F0015A73D /* RoundedRectangleContainer.swift in Sources */,
+				455438162708CB3A0079E1E8 /* FirebaseManager.swift in Sources */,
+				45A0490726FD09000000A536 /* QSUser.swift in Sources */,
+				45FE9A45263BF88E006E12CA /* ContentView.swift in Sources */,
+				4554381F2708D0B90079E1E8 /* CollectionSearchItem.swift in Sources */,
+				45CB18192711AEB700C629FE /* QSCollectionDto.swift in Sources */,
+				45D759AF2699A2CC00B13E87 /* SelectedLocation.swift in Sources */,
+				45024C98265D737A00610082 /* LocationListItem.swift in Sources */,
+				45151DBC265FF81C0015A73D /* BasicObjectDataForm.swift in Sources */,
+				452F828B26FFA7030014EBD1 /* QSEnvironment.swift in Sources */,
+				45A8D895268267A500876CE5 /* BasicDataViewModel.swift in Sources */,
+				45AF673F26CD967B002F5BC9 /* ModalTitle.swift in Sources */,
+				45CB18132711A96D00C629FE /* QSNodeDto.swift in Sources */,
+				4509057826418EEC00A87B63 /* RepeatingShake.swift in Sources */,
+				45D0980C26DEB68B00E3071F /* QSNodeEvent.swift in Sources */,
+				4541A65E265B840A00D47C19 /* HomeViewModel.swift in Sources */,
+				453A588C26FA466C00D04F68 /* AuthFormViewModel.swift in Sources */,
+				45024C9C265D7FE900610082 /* LocationAdd.swift in Sources */,
+				453A588A26FA465000D04F68 /* AuthPage.swift in Sources */,
+				45A0490326FD03870000A536 /* UserViewModel.swift in Sources */,
+				457465C3271DF42B00F7CA74 /* ReadonlyHide.swift in Sources */,
+				4529E2AA2690EFDA00C0DB29 /* CollectionViewModel.swift in Sources */,
+				4554381D2708CC6E0079E1E8 /* CollectionSearchViewModel.swift in Sources */,
+				45FE9A78263C12D7006E12CA /* ExpandableWithHandle.swift in Sources */,
+				45DCE568269F9378008A768C /* ViewModelLifecycle.swift in Sources */,
+				458A926527136C7600103167 /* UIKitAppear.swift in Sources */,
+				453DB2E326597D3000197302 /* QSCoordinate.swift in Sources */,
+				45E0AC3826CC402D009F3C35 /* NodeEdit.swift in Sources */,
+				45AF673D26CD924D002F5BC9 /* CircleButton.swift in Sources */,
+				4569901226938F75004AC91E /* LocationAddViewModel.swift in Sources */,
+				45FE9A70263BF8ED006E12CA /* LocationScene.swift in Sources */,
+				452F828926FFA4640014EBD1 /* LocationIndicator.swift in Sources */,
+				4510D5B2265991C900A51C0D /* QSBaseObject.swift in Sources */,
+				45EFCB5926BB07820022E024 /* LocationSceneViewModel.swift in Sources */,
+				45CB18172711ABD900C629FE /* QSLocationDto.swift in Sources */,
+				450905722641862A00A87B63 /* NodeGallery.swift in Sources */,
+				4565A3C726C5A67E002CC74B /* AssetManager.swift in Sources */,
+				4594317C2712BC3F00F6A7DB /* QSUserDto.swift in Sources */,
+				45024C9A265D78F100610082 /* LocationManager.swift in Sources */,
+				4508B31726D5770700E037D9 /* ARSceneCoordinator.swift in Sources */,
+				45BBCDE32694D91400F82CA1 /* FormInputField.swift in Sources */,
+				45BA8F3627273DE200CDFF50 /* NodeVectorCalculator.swift in Sources */,
+				45FE9A43263BF88E006E12CA /* QuestShareApp.swift in Sources */,
+				45FFD7AB265EB0B8001A090E /* LocationMap.swift in Sources */,
+				453DB2DF265972CB00197302 /* QSCollection.swift in Sources */,
+				450905762641880D00A87B63 /* NodeGalleryItem.swift in Sources */,
+				455438182708CB670079E1E8 /* ServerDatabaseManager.swift in Sources */,
+				453A8E522716227E00BF6963 /* Extensions.swift in Sources */,
+				455D7D0B26A756EE00D02A1A /* ButtonGroup.swift in Sources */,
+				4598B79A2714D02E00BDE353 /* AuthManager.swift in Sources */,
+				45D0980A26DEB66000E3071F /* QSVector.swift in Sources */,
+				4537ECC226C3248F00DA70FB /* NodeAdd.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FE9A4C263BF88F006E12CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453EF90B272B1E9400DCCFDD /* VectorCalculationTest.swift in Sources */,
+				45FE9A55263BF88F006E12CA /* QuestShareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FE9A57263BF88F006E12CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FE9A60263BF88F006E12CA /* QuestShareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45FE9A52263BF88F006E12CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FE9A3E263BF88E006E12CA /* QuestShare */;
+			targetProxy = 45FE9A51263BF88F006E12CA /* PBXContainerItemProxy */;
+		};
+		45FE9A5D263BF88F006E12CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FE9A3E263BF88E006E12CA /* QuestShare */;
+			targetProxy = 45FE9A5C263BF88F006E12CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45293BDA265E2A4D0010E814 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45293BD9265E2A4D0010E814 /* en */,
+				45293BDB265E2ACB0010E814 /* pl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45FE9A62263BF88F006E12CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45FE9A63263BF88F006E12CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45FE9A65263BF88F006E12CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"QuestShare/Preview Content\"";
+				DEVELOPMENT_TEAM = 84BJJN6PJC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QuestShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wojtas.QuestShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45FE9A66263BF88F006E12CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"QuestShare/Preview Content\"";
+				DEVELOPMENT_TEAM = 84BJJN6PJC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QuestShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wojtas.QuestShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45FE9A68263BF88F006E12CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84BJJN6PJC;
+				INFOPLIST_FILE = QuestShareTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wojtas.QuestShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuestShare.app/QuestShare";
+			};
+			name = Debug;
+		};
+		45FE9A69263BF88F006E12CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84BJJN6PJC;
+				INFOPLIST_FILE = QuestShareTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wojtas.QuestShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuestShare.app/QuestShare";
+			};
+			name = Release;
+		};
+		45FE9A6B263BF88F006E12CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84BJJN6PJC;
+				INFOPLIST_FILE = QuestShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wojtas.QuestShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuestShare;
+			};
+			name = Debug;
+		};
+		45FE9A6C263BF88F006E12CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84BJJN6PJC;
+				INFOPLIST_FILE = QuestShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wojtas.QuestShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuestShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45FE9A3A263BF88E006E12CA /* Build configuration list for PBXProject "QuestShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FE9A62263BF88F006E12CA /* Debug */,
+				45FE9A63263BF88F006E12CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FE9A64263BF88F006E12CA /* Build configuration list for PBXNativeTarget "QuestShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FE9A65263BF88F006E12CA /* Debug */,
+				45FE9A66263BF88F006E12CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FE9A67263BF88F006E12CA /* Build configuration list for PBXNativeTarget "QuestShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FE9A68263BF88F006E12CA /* Debug */,
+				45FE9A69263BF88F006E12CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FE9A6A263BF88F006E12CA /* Build configuration list for PBXNativeTarget "QuestShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FE9A6B263BF88F006E12CA /* Debug */,
+				45FE9A6C263BF88F006E12CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4569900C26938B4E004AC91E /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+		4594316E27124AA800F6A7DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4569900D26938B4E004AC91E /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4569900C26938B4E004AC91E /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		4569900F26938B4E004AC91E /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4569900C26938B4E004AC91E /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		4594316F27124AA800F6A7DB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4594316E27124AA800F6A7DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4594317127124AA800F6A7DB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4594316E27124AA800F6A7DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4594317327124AA800F6A7DB /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4594316E27124AA800F6A7DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		4594317527124AA800F6A7DB /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4594316E27124AA800F6A7DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		4594317727124AA800F6A7DB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4594316E27124AA800F6A7DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		4594317927124AA800F6A7DB /* FirebaseStorageSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4594316E27124AA800F6A7DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 45FE9A37263BF88E006E12CA /* Project object */;
+}
